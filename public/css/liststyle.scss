@@ -1,0 +1,23 @@
+.root {
+    position: relative;
+    top: 75px;
+    background-color: #1c5660;
+    width: 70%;
+    height: 75%;
+    .table-style {
+        border: none;
+        border-radius: 10px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        padding: 8px;
+        height: 60%;
+        position: relative;
+        margin: auto;
+        top: 90px;
+    }
+}
+

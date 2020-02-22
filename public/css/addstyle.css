@@ -1,0 +1,66 @@
+h2 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.root {
+  position: relative;
+  top: 75px;
+  background-color: #1c5660;
+  width: 70%;
+  height: 75%;
+}
+
+.root form {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  padding: 8px;
+  height: 60%;
+  position: relative;
+  margin: auto;
+  top: 90px;
+}
+
+.root form label {
+  font-weight: bold;
+  margin: 5px;
+  color: #1a545c;
+}
+
+.root form input {
+  margin: 5px;
+  width: 45%;
+  height: 10%;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.root form button {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 15%;
+  position: relative;
+  left: 200px;
+  border-radius: 4px;
+  width: 20%;
+  border: none;
+  text-align: center;
+  background-color: #1a545c;
+}
+/*# sourceMappingURL=addstyle.css.map */

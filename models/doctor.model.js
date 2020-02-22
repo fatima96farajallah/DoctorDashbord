@@ -1,15 +1,13 @@
 const mongoose=require('mongoose');
 let doctorSchema = new mongoose.Schema({
     name: {
-        type: String
+        type: String,
+        required:'This field is required.'
     },
     email: {
         type:String
     },
-    password: {
-        type: String
-    },
-    age : {
+    mobile : {
         type:String
     },
     major :{

@@ -1,7 +1,8 @@
-body {
-    background-color: #729f9e;
-    display: flex;
+body,html {
+    background-color:#729d93;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    display: flex;
     justify-content: center;
 }
