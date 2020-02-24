@@ -31,5 +31,12 @@ router.get('/list',(req,res)=>{
         res.render('doctor/list.hbs', {
             style:'liststyle.css'
             });
-})
+});
+
+router.get('/dashbord',(req,res) => {
+    res.render('doctor/dashbord.hbs',{
+        style:'dashbord.css'
+    });
+});
+
 module.exports=router;

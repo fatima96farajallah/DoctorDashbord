@@ -16,13 +16,14 @@
         font-style: italic;
         font-variant: normal;
         text-transform: capitalize;
-       text-align: center;
+        text-align: center;
+        padding-left: 20px;
     }
     .sub-root {
         display: flex;
         justify-content: space-evenly;
         width: 100%;
-        height: 50%;
+        height: 60%;
         form {
             border: none;
             border-radius: 10px;
@@ -50,7 +51,7 @@
                 font-weight: bold;
                 height: 15%;
                 position: relative;
-                left: 208px;
+                left: 135px;
                 border-radius: 4px;
                 width: 20%;
                 border: none;

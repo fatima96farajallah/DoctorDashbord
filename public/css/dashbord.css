@@ -1,0 +1,14 @@
+.root {
+  position: relative;
+  top: 10px;
+  background-color: #1c5660;
+  width: 60%;
+  height: 75%;
+}
+
+.root .dashbord {
+  background-color: #F9F9F9;
+  border-radius: 25px;
+  padding: 5px;
+}
+/*# sourceMappingURL=dashbord.css.map */

@@ -20,5 +20,6 @@ app.listen(3000 , ()=> {
 app.get('/', function (req,res) {
     res.render('login.hbs',{style : 'style.css'});
 });
+
 app.use('/doctor',doctorController);
 app.use('/data',appointment_dataController);
