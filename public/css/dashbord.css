@@ -2,13 +2,26 @@
   position: relative;
   top: 10px;
   background-color: #1c5660;
-  width: 60%;
-  height: 75%;
 }
 
 .root .dashbord {
   background-color: #F9F9F9;
   border-radius: 25px;
-  padding: 5px;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 90%;
+  position: absolute;
+  left: 8px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=dashbord.css.map */

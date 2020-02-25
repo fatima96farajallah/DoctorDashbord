@@ -1,12 +1,22 @@
 .root {
     position: relative;
     top: 10px;
-    background-color: #1c5660;
-    width: 60%;
-    height: 75%; 
+    background-color: #1c5660; 
     .dashbord {
         background-color: #F9F9F9;
         border-radius: 25px;
-        padding: 5px;
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        position: absolute;
+        left: 8px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .notification {
+        img{
+          
+        }
     }
 }

@@ -15,8 +15,8 @@ body, html {
 }
 
 body .root, html .root {
-  width: 60%;
-  height: 75%;
+  width: 80%;
+  height: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
