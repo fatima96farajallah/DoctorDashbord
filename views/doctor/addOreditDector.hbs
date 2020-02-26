@@ -2,6 +2,7 @@
     <h1>Create New Doctor</h1>
     <div class="sub-root">
             <form  autocomplete="off" action="/doctor" method="POST">
+            <input type="hidden" name="_id",value="{{doctor._id}}">
            <label>Name</label>
            <input type="text" name="name" value="{{doctor.name}}" required>
            
@@ -9,11 +10,12 @@
            <input type="text" name="email" value="{{doctor.email}}" required>
            
            <label>Mobile</label>
-           <input type="text" name="password" value="{{doctor.mobile}}" required>
+           <input type="text" name="mobile" value="{{doctor.mobile}}" required>
        
            <label>Major</label>
            <input type="text" name="major" value="{{doctor.major}}" required>
            <button class="btn" type="submit">Submit</button>
+           <a href="/doctor/list">View All</a>
             </form>
 
     </div>

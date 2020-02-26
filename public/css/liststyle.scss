@@ -1,23 +1,53 @@
 .root {
-    position: relative;
-    top: 75px;
     background-color: #1c5660;
-    width: 70%;
-    height: 75%;
-    .table-style {
-        border: none;
-        border-radius: 10px;
-        background-color: #fff;
+    .bar {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        width: 60%;
-        padding: 8px;
-        height: 60%;
-        position: relative;
-        margin: auto;
-        top: 90px;
+        padding-left: 0px;
+        a {
+            width: 75%;
+        }
+        h3 {
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            font-size: 30px;
+            letter-spacing: -0.6px;
+            word-spacing: 2.4px;
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+            font-style: italic;
+            font-variant: normal;
+            text-transform: capitalize;
+            text-align: center;
+            padding-left: 0px;
+        }
+    }
+    .table-style {
+        background-color: #fff;
+        width: 80%;
+        padding-left: 20px;
+        thead {
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            color: #1c5660;
+            letter-spacing: -0.6px;
+            word-spacing: 2.4px;
+            font-style: italic;
+            font-variant: normal;
+            text-transform: capitalize;
+            text-align: center;
+            font-size: 18px;
+        }
+        .th-style {
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            color: #1c5660;
+            letter-spacing: -0.6px;
+            word-spacing: 2.4px;
+            font-style: italic;
+            font-variant: normal;
+            text-transform: capitalize;
+            text-align: center;
+        }
     }
 }
 
